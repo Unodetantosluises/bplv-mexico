@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Documentation For Uniqo - Business HTML Template</title>
+    <link rel="icon" type="image/x-icon" href="images/fevicon.svg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.highlight.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+</head>
+
+<body>
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
+        <!--Sidebar-->
+        <aside id="sidebar">
+            <!--Toggle Button-->
+            <div class="button-container clearfix">
+                <div class="menu-toggle flaticon-menu10"></div>
+            </div>
+            <!--Menu Box-->
+            <div class="menu-box mCustomScrollbar _mCS_1">
+                <!--Logo-->
+                <br>
+                <div class="logo text-right"><a href="index.html"><img src="images/Logo.svg" width="150" alt=""></a></div>
+                <!--Sticky Menu-->
+                <nav class="sticky-menu">
+                    <ul>
+                        <li class="current"><a
+                                href="#introduction">Introduction <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a
+                                href="#html-structure">HTML Structure <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a
+                                href="#css-structure">CSS Files and Structure <span
+                                    class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a
+                                href="#javascript">Javascript <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a
+                                href="#tutorial">Tutorial<span class="fa fa-arrow-right"></span></a></li>
+                        <li><a
+                                href="#sources-credits">Sources and Credits <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a
+                                href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">Copyright
+                &copy; <a href="mailto:udayraj.web@gmail.com">Udayraj</a> 2025
+            </div>
+        </aside>
+        <div id="content-section">
+            <!--Introduction Section-->
+            <section class="section introduction" id="introduction">
+                <br>
+                <div class="sec-content">
+                    <h2>Uniqo - Business HTML Template</h2>
+                    <h3></h3>
+
+                    <div class="separator"></div>
+
+                    <strong>Created :</strong> 01/12/2025<br>
+                    <strong>By :</strong> Udayraj<br>
+                    <strong>Support :</strong> <a href="mailto:udayraj.web@gmail.com" target="_blank">udayraj.web@gmail.com</a>
+                    <br>
+                    <br>
+                    <p>Thank you for purchasing <strong>Uniqo </strong> - Business HTML Template                        .
+                        If
+                        you
+                        have
+                        any questions that are beyond the scope of this help file, please feel free to email, via my
+                        user page contact form or put a ticket at Support Center .<br>Thankyou so much!</p>
+
+                    <h3 class="content-title">Template Features</h3>
+
+                    <ul class="checkbox ">
+                        <li>Clean & Simple Design</li>
+                        <li>Advance Bootstrap 5.x Framework </li>
+                        <li>HTML5 & CSS3 </li>
+                        <li>CSS3 Animations </li>
+                        <li>Fully Responsive Design </li>
+                        <li>All files are well commented </li>
+                        <li>Crossbrowser Compatible with IE10+, Firefox, Safari, Opera, Chrome </li>
+                        <li>Extensive Documentation</li>
+                    </ul>
+                </div>
+            </section>
+            <!--HTML Structure-->
+            <section class="section html-structure" id="html-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>HTML Structure</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <h3>The html template uses Latest <strong>Bootstrap v5</strong> with valid HTML5 tags. This
+                        theme is a responisve layout with 4 column Support column. All of the information in content
+                        area is nested within a class and comes with predefined classes.</h3>
+                    <h3 class="content-title">Basic Grid HTML</h3>
+                    <p>For a simple two column layout, create a .container and add the appropriate number of .col-md*
+                        columns. </p>
+                    <p>Given this example, we have .col-md-4 and .col-md-8, making for 12 total columns and a complete
+                        row.</p>
+
+                    <pre class="code" data-language="html">
+&lt;div class="container"&gt;
+    &lt;div class="col-md-4"&gt;...&lt;/div&gt;
+    &lt;div class="col-md-8"&gt;...&lt;/div&gt;
+&lt;/div&gt;</pre>
+                    <h3 class="content-title">Nesting Columns</h3><!-- /.content-title -->
+                    <p>To nest your content with the default grid, add a new .container and set of .col-md* columns
+                        within an existing .col-md* column. Nested rows should include a set of columns that add up to
+                        the number of columns of its parent.</p>
+
+                    <pre class="code" data-language="html">
+&lt;div class="container"&gt;
+    &lt;div&gt; class="col-md-9"&gt;
+        Level 1 column
+        &lt;div&gt; class="row"&gt;
+            &lt;div&gt; class="col-md-8"&gt;Level 2&lt;/div&gt;
+            &lt;div&gt; class="col-md-4"&gt;Level 2&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt; class="col-md-3"&gt;
+        Level 2 column
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre><!-- /.code -->
+                </div>
+
+            </section>
+
+            <!--CSS Structure-->
+            <section class="section css-structure" id="css-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-at"></span>
+                    <h2>CSS Files and Structure</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Mainly three main CSS files are used in this theme. The first one
+                        <strong>bootstrap.css</strong>, second one is <strong>ambed.css</strong> which for this template
+                        and third one is <strong>ambed-responsive.css</strong> to control responsive layouts.
+                    </h3>
+                    <p>If you would like to edit a specific section of the site, simply find the appropriate label in
+                        the CSS file, and then scroll down until you find the appropriate style that needs to be edited.
+                    </p>
+
+                    <p>These are the css files that are loaded into templates in top of head of html file labled as
+                        <b>link css</b>.
+                    </p>
+
+                    <pre class="code" data-language="html">
+&lt;link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css"/&gt;
+&lt;link rel="stylesheet" href="assets/vendors/slick/slick.css" /&gt;
+&lt;link rel="stylesheet" href="assets/vendors/animation/animate.min.css" /&gt;
+&lt;link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css" /&gt;
+&lt;link rel="stylesheet" href="assets/vendors/youtube-popup/youtube-popup.css" /&gt;
+&lt;link rel="stylesheet" href="assets/css/style.css" /&gt;
+&lt;link rel="stylesheet" href="assets/css/responsive.css" /&gt;
+</pre><!-- /.code -->
+
+                    <h3 class="content-title">Fonts</h3>
+                    <p>By default, the template loads this font from Google Web Font Services, you can change the font
+                        with the one that suits you best.</p>
+
+                    <pre class="code" data-language="css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Marcellus&display=swap" rel="stylesheet"></pre>
+                    <!-- /.code -->
+                </div>
+            </section>
+            <!--Javascript-->
+            <section class="section javascript" id="javascript">
+                <div class="sec-title">
+                    <span class="icon fa fa-code"></span>
+                    <h2>Jquery and javascript</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+
+                    <h3>This theme imports three types of Javascript files.</h3>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>Custom scripts <strong>(custom.js)</strong></li>
+                        <li>Some plugins</li>
+                        <li><strong>jQuery</strong> is a Javascript library that greatly reduces the amount of code that
+                            you must write.</li>
+                        <li>Most of the animation in this site is carried out from the customs scripts. There are a few
+                            functions worth looking over.</li>
+                    </ul>
+                    <br>
+                    <p>In addition to the custom scripts, I have implemented few "tried and true" plugins to create the
+                        effects. This plugin is packed, so you won't need to manually edit anything in the file. The
+                        only necessary thing to know is how to call the method</p>
+
+
+                    <p>These are the JS files that are loaded into templates in end of the Body Section.</p>
+
+                    <pre class="code" data-language="html">
+&lt;script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/vendors/jquery/jquery-3.7.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/vendors/slick/slick.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/vendors/wow/wow.js"&gt;&lt;/script&gt;
+&lt;script src="assets/vendors/youtube-popup/youtube-popup.jquery.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/custom.js"&gt;&lt;/script&gt;
+</pre><!-- /.code -->
+                </div>
+
+            </section>
+
+            
+
+            <!--Sources and Credits-->
+            <section class="section tutorial" id="tutorial">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Tutorial</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+                    <h3 class="content-title">LOGO</h3><!-- /.content-title -->
+
+                    <p>Lets start updating the template. Open index.html file and follow the steps.</p>
+                    <p>Most of the updates are same for all pages. So will explain once here.</p>
+
+                    <pre class="code" data-language="html">
+&lt;div class="main-menu-logo"&gt;
+    &lt;a href="index.html"&gt;
+        &lt;img src="assets/images/Logo.svg" alt="header-logo"&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+</pre><!-- /.code -->
+                    <p>Replace "images/logo.png" with your logo image url source or website name .</p>
+
+
+                    <h3 class="content-title">NAVMENU</h3><!-- /.content-title -->
+
+                    <p>This is the basic structure.</p>
+
+                    <pre class="code" data-language="html">
+<!-- Collect the nav links, forms, and other content for toggling -->
+&lt;div class="main-menu-inner"&gt;
+    &lt;ul class="main-menu-list"&gt;
+        &lt;li class="menu-item-children"&gt;
+            &lt;a href="#"&gt;Home&lt;/a&gt;&lt;i class="fa-solid fa-chevron-down"&gt;&lt;i&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="index.html"&gt;Home One&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="index-2.html"&gt;Home Two&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="index-3.html"&gt;Home Three&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="index-4.html"&gt;Home Four&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="index-4.html"&gt;Home Five&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="menu-item-children"&gt;
+            &lt;a href="#"&gt;Pages&lt;/a&gt;&lt;i class="fa-solid fa-chevron-down"&gt;&lt;i&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="about.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="careers.html"&gt;Careers&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="team.html"&gt;Meet The Team&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="testimonial.html"&gt;Testimonial&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="pricing.html"&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="menu-item-children"&gt;
+            &lt;a href="#"&gt;Services&lt;/a&gt;&lt;i class="fa-solid fa-chevron-down"&gt;&lt;i&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="service.html"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="service-details.html"&gt;Services Details&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="menu-item-children"&gt;
+            &lt;a href="#"&gt;Portfolio&lt;/a&gt;&lt;i class="fa-solid fa-chevron-down"&gt;&lt;i&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="portfolio.html"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="portfolio-details.html"&gt;Portfolio Details&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="menu-item-children"&gt;
+            &lt;a href="#"&gt;Blog&lt;/a&gt;&lt;i class="fa-solid fa-chevron-down"&gt;&lt;/i&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Blog Standards&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog-details.html"&gt;Blog Details&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="menu-item-children"&gt;
+        &lt;a href="#"&gt;Shop&lt;/a&gt;&lt;i class="fa-solid fa-chevron-down"&gt;&lt;/i&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="shop.html"&gt;Shop&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="shop-details.html"&gt;Product Details&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="cart.html"&gt;Cart&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="checkout.html"&gt;Checkout&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+        &lt;li class="menu-item-children"&gt;&lt;a href="contact.html"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;&lt;!-- /.navbar-collapse --&gt;</pre><!-- /.code -->
+
+
+                    <p>Add your own menu item to that ul li item. and if you want to add dropdown menu just make a
+                        nesting ul li with class of <b>sub-menu</b></p>
+
+
+
+                    <h3 class="content-title">FOOTER COPYRIGHT</h3><!-- /.content-title -->
+
+                    <pre class="code" data-language="html">
+&lt;div class="col-12"&gt;
+    &lt;div class="footer-lower-one"&gt;
+        &lt;p class="lead"&gt;© Copyright@ Uniqo All rights reserved&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Privacy policy&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre><!-- /.code -->
+                    <p>replace "© Copyright Uniqo 2025 . All right reserved." with the copyright info.</p>
+                </div>
+
+            </section>
+
+            <!--Sources and Credits-->
+            <section class="section sources-credits" id="sources-credits">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Sources and Credits</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Fonts Used int the template are google fonts, you can find theme on Google Fonts API</h3>
+
+                    <p><strong> Fonts Used are :</strong></p>
+                    <p><a href="https://fonts.google.com/?query=Marcellus" target="_blank">Marcellus</a></p>
+                    <p><a href="https://fonts.google.com/?query=Inter" target="_blank">Inter</a></p>
+
+                    <br>
+
+                    <p><strong> File Used For Animation Effects :</strong></p>
+                    <p><strong><a href="http://daneden.me/animate" target="_blank">animate.css</a></strong> (in css
+                        Folder)</p>
+                    <p><strong><a href="https://wowjs.uk/" target="_blank">wow.js</a></strong> (in js
+                        Folder)</p>
+
+                    <br>
+
+                    <p><strong> Sliders Used Are :</strong></p>
+                    <p><a href="https://kenwheeler.github.io/slick/" target="_blank">Slick</a></p>
+                    <br>
+
+                    <p><strong> Plugins Used Are :</strong></p>
+
+                    <p><a href="http://youtube-popup" target="_blank">Youtube Popup</a> (can be located in js folder)
+                    </p>
+                    <p><a href="https://github.com/jzaefferer/jquery-validation" target="_blank">jQuery Validation</a>
+                        (can be located in js folder)</p>
+                    <p><a href="http://silviomoreto.github.io/bootstrap-select" target="_blank">Bootstrap Select</a>
+                        (can be located in js folder)</p>
+                    <p><a href="https://fontawesome.com/" target="_blank">FontAwesome Icons</a> (can be located in
+                        plugins folder)</p>
+                    Every Code is properly commented for Editing Ease.
+
+                </div>
+
+            </section>
+
+            <!--Support-->
+            <section class="section support" id="support">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Support</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad
+                        to help you if you have any questions relating to this theme. No guarantees, but I'll do my best
+                        to assist. If you have any queries, please feel free to contact us at Support Center.</h3>
+
+                    <p>Contact Us at : <a href="mailto:udayraj.web@gmail.com" target="_blank">udayraj.web@gmail.com</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--End pagewrapper-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/jquery.highlight.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
