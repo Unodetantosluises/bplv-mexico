@@ -112,7 +112,7 @@
         function updateSliderInfo() {
             var currentSlide = $slider.slick('slickCurrentSlide') + 1;
             var totalSlides = $slider.slick('getSlick').slideCount;
-            $('#slider-info').text('Slide ' + currentSlide + ' / ' + totalSlides);
+            $('#slider-info').text(' ' + currentSlide + ' / ' + totalSlides);
         }
 
         updateSliderInfo();
