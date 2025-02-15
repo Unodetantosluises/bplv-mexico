@@ -6304,6 +6304,49 @@ input[type="search"]::-ms-clear {
 /***********************
  * back-to-top
 ***********************/
+.contenedor-botones {
+    position: fixed;
+    left: 95.2%;
+    width: 10%;
+    padding-right: 1rem;
+    /*opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transform: translateY(1px) !important;
+    transition: all 200ms linear !important;*/
+}
+.contenedor-botones.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) !important;
+  }
+
+.redes{
+    width: 135%;
+}
+
+.redes a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 50%;
+}
+.whats{
+    background-color: green;
+    color: white;
+    width:46px;
+    height: 46px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.whats:hover{
+    background-color: #fff;
+    color: green;
+}
+
 .prgoress_indicator {
     position: fixed;
     right: 26px;
