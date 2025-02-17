@@ -732,6 +732,9 @@
             jQuery('html, body').animate({ scrollTop: 0 }, duration);
             return false;
         });
+        $('.boton_whats').on('click', function(e) {
+            e.stopPropagation();
+          });          
     }
 
     if ($('.fillter-option').length) {
