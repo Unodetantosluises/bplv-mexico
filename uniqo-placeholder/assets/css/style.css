@@ -45,8 +45,8 @@
 * Variable
 --------------------------------------------------------------*/
 :root {
-    --uniqo-primary: #D1A97A;
-    --uniqo-secondary: #56736C;
+    --uniqo-primary: #162041;
+    --uniqo-secondary: #aaabad;
     --uniqo-black: #1B2429;
     --uniqo-grey: #D9DEDD;
     --uniqo-light-brown:#FDEDDB ;
@@ -202,7 +202,7 @@ button:focus-visible{
 * Button style
 ***********************/
 .btn-primary{
-    background-color: var(--uniqo-primary);
+    background-color: var(--uniqo-secondary);
     color: var(--uniqo-black);
 }
 .btn-primary:hover{
