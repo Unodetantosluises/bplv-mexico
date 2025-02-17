@@ -202,7 +202,7 @@ button:focus-visible{
 * Button style
 ***********************/
 .btn-primary{
-    background-color: var(--uniqo-primary);
+    background-color: var(--uniqo-secondary);
     color: var(--uniqo-black);
 }
 .btn-primary:hover{
