@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "imagen": "assets/images/blog/blog-single-1.jpg",
+        "dia": "14",
+        "mes": "Feb",
+        "autor": "Juan Pérez",
+        "categoria": "Tecnología",
+        "titulo": "Novedades en Inteligencia Artificial",
+        "descripcion": "Exploramos los avances más recientes en inteligencia artificial y su impacto en la sociedad."
+    },
+    {
+        "id": 2,
+        "imagen": "assets/images/blog/blog-single-2.jpg",
+        "dia": "20",
+        "mes": "Mar",
+        "autor": "Ana Gómez",
+        "categoria": "Ciencia",
+        "titulo": "El futuro de la exploración espacial",
+        "descripcion": "Descubre cómo las nuevas tecnologías están cambiando la exploración del espacio."
+    }
+]
